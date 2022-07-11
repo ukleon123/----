@@ -1,6 +1,6 @@
 import sys
 from collections import deque
-\
+
 def swap(state, num):
     state = list(state)
     state[num], state[num + 1] = state[num + 1], state[num]
